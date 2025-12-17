@@ -1,0 +1,14 @@
+Front- end
+
+npm install
+npm start
+
+Backend
+pip install fastapi uvicorn sqlalchemy
+
+
+Virtual Environment
+python -m venv myenv
+myenv\Scripts\activate.bat
+
+uvicorn main:app --reload
